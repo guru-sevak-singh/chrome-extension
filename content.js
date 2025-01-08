@@ -79,19 +79,12 @@ function show_on_insta() {
 }
 
 function PauseDistraction() {
-
     let current_url = window.location.href
     if (current_url.includes('instagram.com')) {
         show_on_insta()
     }
 
     if (current_url.includes('youtube.com')) {
-        setTimeout(() => {
-            console.log('guru sevak singh')
-        }, 1000);
-    }
-    
-    if (current_url.includes('youtube.com/shorts/')) {
         show_on_youtube()
     }
 
